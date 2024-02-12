@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles_2.css') }}">
+</head>
+<body>
+    <div class="admin-panel">
+        <div class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Dashboard</h2>
+            <div class="dashboard-info">
+                <div class="info-box">
+                    <h3>Total Users</h3>
+                    <p>1200</p>
+                </div>
+                <div class="info-box">
+                    <h3>Total Posts</h3>
+                    <p>3500</p>
+                </div>
+                <div class="info-box">
+                    <h3>Total Messages</h3>
+                    <p>800</p>
+                </div>
+            </div>
+            <div class="recent-posts">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">Post Title 1</a></li>
+                    <li><a href="#">Post Title 2</a></li>
+                    <li><a href="#">Post Title 3</a></li>
+                    <li><a href="#">Post Title 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

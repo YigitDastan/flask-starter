@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Dikey hizalama */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px; /* Butonlar arasındaki boşlukları artırır */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Butonun hover arka plan rengi */
+    border-radius: 5px; /* Butona yumuşak kenarlar verir */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-signup button:hover {
+    background-color: #0056b3;
+}
+
+.login-signup button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+h1 a {
+    color: #c3c2c2;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+h1 a:hover {
+    color: rgb(247, 244, 244);
+}

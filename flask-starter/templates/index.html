@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1><a href="/">Website</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="login-signup">
+                <button onclick="window.location.href='/login'">Login</button>
+                <button onclick="window.location.href='/signup'">Sign Up</button>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Welcome to our website! We provide a range of services to meet your needs.</p>
+            <p>Feel free to explore and contact us if you have any questions.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
