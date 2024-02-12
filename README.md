@@ -17,6 +17,6 @@ Usage:
 
 2.Activate the virtual environment: source venv/bin/activate (If you are using a virtual environment.)
 
-3.Start the application: python app.py
+3.Start the application: python main.py
 
 4.Explore this template to get started quickly with Flask web applications.
